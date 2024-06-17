@@ -1,0 +1,15 @@
+function sends(){
+    var x = document.getElementById("wrt").value
+
+    if (x == ""){
+        alert("Enter Your Name and Mobile number ");
+        return false;
+    }
+
+    else{
+        alert("messege sent successfully")
+    }
+}
+
+
+

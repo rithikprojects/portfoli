@@ -1,0 +1,296 @@
+body{
+    background-color: rgb(60, 60, 60);
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)), url(dp_profil.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.nav{
+    position: sticky;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 194, 40, 0.731);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(255, 179, 0, 0.525), 0 8px 20px 0 rgba(255, 226, 35, 0.29) ;
+    
+
+}
+
+#a1{
+    position: sticky;
+    transition: 0.2s;
+    margin: 40px 20px;
+    text-align: center;
+    font-weight:bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+
+    
+
+
+}
+
+#a1:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    letter-spacing: 0.1cm;
+    transition: 0.3s;
+    padding-bottom: 3px;
+    
+}
+
+#about{
+    width: 600px;
+    margin-top: 50px;
+    position: relative;
+}
+
+h1{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+    letter-spacing: 0.1cm;
+    color: white;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+h1:hover{
+    letter-spacing: 0.2cm;
+    transition: 0.3s;
+}
+
+h2{
+    color: rgb(255, 194, 40);
+    margin-left: 20px;
+}
+
+h3{
+    margin-left: 20px;
+    color: white;
+    line-height: 0.8cm;
+    
+}
+
+.merg{
+    display: flex;
+}
+
+.pic{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 150px; 
+    border-radius: 50px  
+}
+#img1{
+    border-radius: 50px;
+}
+
+p{
+    color: rgb(255, 194, 40);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 30px  20px;
+}
+
+#cv{
+    padding: 15px 40px ;
+    margin: 20px;
+    background-color:rgb(255, 194, 40);
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+
+
+}
+
+#cv:hover{
+    box-shadow: rgba(255, 255, 255, 0.82) 0px 12px 70px 4px;
+    color:rgb(255, 194, 40);
+    background-color: rgba(0, 0, 0, 0.895);
+    color:rgb(255, 194, 40) ;
+    transition: 0.1s;
+
+}
+
+.skills{
+    height: 600px;
+    width: 90%;
+    background-color: #ffffff56;
+    box-shadow:rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-top: 80px;
+    margin-left: 60px;
+    border-radius: 15px;
+}
+
+#skill{
+    color: rgb(255, 194, 40);
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: 0.2cm;
+    text-align: center;
+    box-shadow:rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.logos{
+    margin-top: 30px;
+    text-align: center;
+}
+#clicks{
+    overflow: hidden;
+    margin: 40px 60px;
+    transition: 0.5s;
+}
+
+#clicks:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: rgba(38,57,77) 0px 20px 30px -10px;
+}
+
+
+
+#contact{
+
+    height: 600px;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    background-color: #000000;
+
+}
+#cnt{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow:rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+
+#cnt:hover{
+    letter-spacing: 0.1cm;
+   
+}
+#card{
+    width: 500px;
+    margin: 60px 20px 30px 20px;
+    line-height: 2cm;
+}
+
+
+#form{
+    display: flex;
+}
+
+#mail{
+    padding: 15px 100px;   
+    background-color: rgba(255, 255, 255, 0.742);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1cm;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+#mail:hover{
+    background-color:rgb(255, 194, 40) ;
+    color: black;
+    font-size: x-large;
+    transition: 0.2s;
+}
+
+
+#call{
+    padding: 15px 80px;   
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 0.712);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1cm;
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+#call:hover{
+    background-color:rgb(255, 194, 40) ;
+    color: black;
+    font-size: x-large;
+    transition: 0.2s;
+}
+
+.review{
+    height: 400px;
+    width: 400px;
+    text-align: right;
+
+
+}
+#wrt{
+    margin-top: 20px;
+    color: white;
+    outline: none;
+    height: 50px;
+    width: 400px;
+    font-size: 18px;
+    background: none;
+    text-decoration: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 194, 40);
+    
+}
+
+#msg{
+    font-size: 18px;
+    margin: 30px 0px;
+    padding: 10px 300px 200px 20px;
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+    border: 2px solid rgb(255, 194, 40);
+
+}
+
+#sub{
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-left:80% ;
+    margin-top: 30px;
+    font-weight: bold;
+    background-color: rgb(255, 194, 40);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#sub:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@media screen {
+
+}
